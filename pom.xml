@@ -5,13 +5,13 @@
 	http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sample</groupId>
+    <groupId>user30</groupId>
     <artifactId>make-it-cry</artifactId>
     <name>make-it-cry</name>
 
     <packaging>war</packaging>
     <description>Just make it cry</description>
-    <version>1.0</version>
+    <version>3.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -61,4 +61,19 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>64525e40a3c0-releases</name>
+            <url>http://65.52.160.180:8083/artifactory/great-company</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>64525e40a3c0-snapshots</name>
+            <url>http://65.52.160.180:8083/artifactory/great-company</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
 </project>
