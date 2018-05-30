@@ -2,3 +2,8 @@
 *.iml
 target/
 build/
+
+# eclipse project file
+.settings/
+.classpath
+.project
